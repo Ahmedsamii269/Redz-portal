@@ -1,0 +1,6 @@
+{
+  "name": "Redz Recruitment",
+  "description": "Professional recruitment agency dashboard and candidate management system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

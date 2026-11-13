@@ -1,0 +1,594 @@
+{
+ "_readme": "Seed data for Redz app. Load into Firestore on first run (admin-only seeding). All items must stay editable from the UI.",
+ "brand": {
+  "copyFooter": "🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+  "facebook": "https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr",
+  "linkedin": "https://www.linkedin.com/company/redz-recruitment1/",
+  "phonePlaceholder": "{{MY_PHONE}}"
+ },
+ "statuses": [
+  "New",
+  "Accepted Voice Note",
+  "Rejected Voice Note",
+  "Interview Scheduled",
+  "Interview Rescheduled",
+  "Accepted Interview",
+  "Rejected Interview",
+  "Start Training",
+  "Commission Done"
+ ],
+ "offers": [
+  {
+   "id": "ttec-english",
+   "language": "English",
+   "company": "TTEC",
+   "location": "Maadi",
+   "offerText": "🌟 Job Offer – outbound sales\n📍 Location: Maadi Technology Park, Cairo\n🏢 Company: TTEC\nRequirements:\nEgyptians only 🇪🇬\nGraduates\nEnglish level: C1\nmust have 1-2 years experience in Sales.\nStrong communication & persuasion skills.\nComputer literacy & ability to handle systems efficiently.\n\nJob Responsibilities:\nHandle customer interactions professionally.\nPromote and sell company products/services.\nUnderstand customer needs and close sales.\nProvide accurate information and solutions.\nDeliver an excellent customer experience.\n\nWork Conditions:\nWorking hours: Rotational (9 hours including break)\nDays off: 2 days per week\nContract: Fixed\n\nSalary & Benefits:\n💰 Salary Package: up to 24,600 Gross\n🎯 Performance-based incentives & bonuses\n🏥 Medical insurance\n👥 Social insurance\n🚗 Transportation allowance / provided\n📱 Mobile allowance\n\nWhy Join Us?\nStable income & clear commission structure.\nCareer growth opportunities.\nSupportive and professional work environment.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "🌟 Job Offer – outbound sales\n📍 Location: Maadi Technology Park, Cairo\n🏢 Company: TTEC\nRequirements:\nEgyptians only 🇪🇬\nGraduates\nEnglish level: C1\nmust have 1-2 years experience in Sales.\nStrong communication & persuasion skills.\nComputer literacy & ability to handle systems efficiently.\n\nJob Responsibilities:\nHandle customer interactions professionally.\nPromote and sell company products/services.\nUnderstand customer needs and close sales.\nProvide accurate information and solutions.\nDeliver an excellent customer experience.\n\nWork Conditions:\nWorking hours: Rotational (9 hours including break)\nDays off: 2 days per week\nContract: Fixed\n\nSalary & Benefits:\n💰 Salary Package: up to 24,600 Gross\n🎯 Performance-based incentives & bonuses\n🏥 Medical insurance\n👥 Social insurance\n🚗 Transportation allowance / provided\n📱 Mobile allowance\n\nWhy Join Us?\nStable income & clear commission structure.\nCareer growth opportunities.\nSupportive and professional work environment.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Introduction Questions:\n- Introduce yourself.\n- Can you tell us about your previous experiences?\n- Why did you leave your last job\n- Why are you interested in the customer service representative field?\n\n2. Experience and Situational Questions:\n- Can you describe a good or bad situation you faced at work or outside of work?\n- What achievement are you most proud of in your career so far?\n- If you've worked in a call center before and left, why do you want to return to the same field?\n- If you have no prior experience in customer service, can you tell us about your previous industry and your experience there?\n\n3. Job-Related Questions:\n- What do you know about call centers and customer service?\n- Do you think customer service is important? Why?\n- Why do you want to work as a call center agent?\n- How would you describe the role of a call center representative?\n- What are the most important skills for a call center representative?\n- What steps do you take when speaking with a customer?\n- How do you handle calls from dissatisfied customers?\n- If a customer asked you to do something against company policy, how would you respond?\n- If you faced an angry customer who said, \"Your colleagues didn't help me, and I don't want to waste my time again. I want to speak to your supervisor,\" how would you handle that situation?\n\n4. Behavioral Questions:\n- Tell me about a weakness and strength you have and how you manage them.\n- In your opinion, what qualities are necessary to succeed in this role?\n- How do you handle clients?\n- What is the difference between telesales, telemarketing, call center, and sales?\n\n5. Personal Questions:\n- If you had a million dollars, what would you do with it?\n- Do you have any commitments in the next 6 months?\n- If you could travel to any country, which one would you choose and why?\n\n6. Emotional Intelligence & Communication Skills:\n- What's the difference between sympathy and empathy?\n- What's the difference between passion and compassion?\n- How would you define the boss, the leader, and the manager?\n\n7. Customer Service Philosophy:\n- Do you think the customer is always right?\n- How do you convince someone to buy something?\n\n8. Additional Insight:\n- Why did you specifically choose to work with us for customer service?\n\n9. Who is your role model?\n- If you had the chance to sit with your role model, what would you talk about?\n- What is something you would love to say to them?\n\n10. Quick Thought Segment – Discuss any topic of your choice for one minute.\n- This could be anything you're passionate about, a recent news topic, or something that interests you.\n- Describe happiness?\n- Does money make people happy?\n- What would you do if you met an angry customer who asked for your manager?\n\n🚨 Note on Additional Candidate Questions:\n- When a candidate introduces themselves in English and mentions they worked in a company for a short period, ask: \"Why did you leave your last company?\"\n- If the candidate doesn't have prior customer service experience, ask about the industry they worked in (e.g., import/export) to gauge their communication skills.\n- If a candidate mentions they've previously worked in a call center and left but are now looking to return, ask: \"Why do you want to return to the same field?\"",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Monday to Friday\n11:00 AM - 3:00 PM\nMaadi Technology Park",
+   "active": true
+  },
+  {
+   "id": "teleperformance-english",
+   "language": "English",
+   "company": "Teleperformance",
+   "location": "New Cairo",
+   "offerText": "Call Center Vacancy – Teleperformance is Hiring!\n\n📍 Job Requirements\nGraduates only\n\nEnglish Level: start from B2\n\nMaximum Age: 45\n\nRotational Shifts\n\n9-hour shift including 1-hour break\n\nFemales last shift: 2–3 AM\n\n📍 Benefits\nSalary up to 18,000 EGP (depends on the account)\n80% Basic salary - 20% KPIs\nTransportation provided across Cairo & Giza\n(Door-to-Door for females after 10 PM)\n\nFull medical & social insurance\n\nPaid training\n\nCareer development opportunities in a global BPO leader\n\nGym access\n\nNo experience required\n\n📍 Location\nNew Cairo\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "Call Center Vacancy – Teleperformance is Hiring!\n\n📍 Job Requirements\nGraduates only\n\nEnglish Level: start from B2\n\nMaximum Age: 45\n\nRotational Shifts\n\n9-hour shift including 1-hour break\n\nFemales last shift: 2–3 AM\n\n📍 Benefits\nSalary up to 18,000 EGP (depends on the account)\n80% Basic salary - 20% KPIs\nTransportation provided across Cairo & Giza\n(Door-to-Door for females after 10 PM)\n\nFull medical & social insurance\n\nPaid training\n\nCareer development opportunities in a global BPO leader\n\nGym access\n\nNo experience required\n\n📍 Location\nNew Cairo\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Introduction Questions:\n- Introduce yourself.\n- Can you tell us about your previous experiences?\n- Why did you leave your last job\n- Why are you interested in the customer service representative field?\n\n2. Experience and Situational Questions:\n- Can you describe a good or bad situation you faced at work or outside of work?\n- What achievement are you most proud of in your career so far?\n- If you've worked in a call center before and left, why do you want to return to the same field?\n- If you have no prior experience in customer service, can you tell us about your previous industry and your experience there?\n\n3. Job-Related Questions:\n- What do you know about call centers and customer service?\n- Do you think customer service is important? Why?\n- Why do you want to work as a call center agent?\n- How would you describe the role of a call center representative?\n- What are the most important skills for a call center representative?\n- What steps do you take when speaking with a customer?\n- How do you handle calls from dissatisfied customers?\n- If a customer asked you to do something against company policy, how would you respond?\n- If you faced an angry customer who said, \"Your colleagues didn't help me, and I don't want to waste my time again. I want to speak to your supervisor,\" how would you handle that situation?\n\n4. Behavioral Questions:\n- Tell me about a weakness and strength you have and how you manage them.\n- In your opinion, what qualities are necessary to succeed in this role?\n- How do you handle clients?\n- What is the difference between telesales, telemarketing, call center, and sales?\n\n5. Personal Questions:\n- If you had a million dollars, what would you do with it?\n- Do you have any commitments in the next 6 months?\n- If you could travel to any country, which one would you choose and why?\n\n6. Emotional Intelligence & Communication Skills:\n- What's the difference between sympathy and empathy?\n- What's the difference between passion and compassion?\n- How would you define the boss, the leader, and the manager?\n\n7. Customer Service Philosophy:\n- Do you think the customer is always right?\n- How do you convince someone to buy something?\n\n8. Additional Insight:\n- Why did you specifically choose to work with us for customer service?\n\n9. Who is your role model?\n- If you had the chance to sit with your role model, what would you talk about?\n- What is something you would love to say to them?\n\n10. Quick Thought Segment – Discuss any topic of your choice for one minute.\n- This could be anything you're passionate about, a recent news topic, or something that interests you.\n- Describe happiness?\n- Does money make people happy?\n- What would you do if you met an angry customer who asked for your manager?\n\n🚨 Note on Additional Candidate Questions:\n- When a candidate introduces themselves in English and mentions they worked in a company for a short period, ask: \"Why did you leave your last company?\"\n- If the candidate doesn't have prior customer service experience, ask about the industry they worked in (e.g., import/export) to gauge their communication skills.\n- If a candidate mentions they've previously worked in a call center and left but are now looking to return, ask: \"Why do you want to return to the same field?\"",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "On-Site Interview\nSunday to Thursday\n11:00 AM - 3:00 PM",
+   "active": true
+  },
+  {
+   "id": "eclerx-english",
+   "language": "English",
+   "company": "eClerx",
+   "location": "Maadi",
+   "offerText": "🚨 We’re Hiring: Customer Support Specialists at eClerx 🌟\n📍 Location: Maadi Technology Park, Cairo\n\n🕒 Rotational Night &\nOvernight Shifts\n\n🎯 Requirements: • Graduates Only\n• English Level: B2\n•With BPO experience\n▪︎Egyptians wiz Max age 40\n\n💰 Salary Package (NET): • 15,500 EGP Basic Salary\n• 2,300 EGP Night Allowance\n• Up to 3,200 EGP KPI Bonus\n✅ Total Net Package: 20K–21K Monthly\n\n🎁 Benefits: • Medical Insurance (200K annual coverage)\n• Family Medical Insurance Included\n• Door-to-Door Transportation 🚍\n• Amazing Career Growth Opportunities 📈\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "🚨 We’re Hiring: Customer Support Specialists at eClerx 🌟\n📍 Location: Maadi Technology Park, Cairo\n\n🕒 Rotational Night &\nOvernight Shifts\n\n🎯 Requirements: • Graduates Only\n• English Level: B2\n•With BPO experience\n▪︎Egyptians wiz Max age 40\n\n💰 Salary Package (NET): • 15,500 EGP Basic Salary\n• 2,300 EGP Night Allowance\n• Up to 3,200 EGP KPI Bonus\n✅ Total Net Package: 20K–21K Monthly\n\n🎁 Benefits: • Medical Insurance (200K annual coverage)\n• Family Medical Insurance Included\n• Door-to-Door Transportation 🚍\n• Amazing Career Growth Opportunities 📈\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Introduction Questions:\n- Introduce yourself.\n- Can you tell us about your previous experiences?\n- Why did you leave your last job\n- Why are you interested in the customer service representative field?\n\n2. Experience and Situational Questions:\n- Can you describe a good or bad situation you faced at work or outside of work?\n- What achievement are you most proud of in your career so far?\n- If you've worked in a call center before and left, why do you want to return to the same field?\n- If you have no prior experience in customer service, can you tell us about your previous industry and your experience there?\n\n3. Job-Related Questions:\n- What do you know about call centers and customer service?\n- Do you think customer service is important? Why?\n- Why do you want to work as a call center agent?\n- How would you describe the role of a call center representative?\n- What are the most important skills for a call center representative?\n- What steps do you take when speaking with a customer?\n- How do you handle calls from dissatisfied customers?\n- If a customer asked you to do something against company policy, how would you respond?\n- If you faced an angry customer who said, \"Your colleagues didn't help me, and I don't want to waste my time again. I want to speak to your supervisor,\" how would you handle that situation?\n\n4. Behavioral Questions:\n- Tell me about a weakness and strength you have and how you manage them.\n- In your opinion, what qualities are necessary to succeed in this role?\n- How do you handle clients?\n- What is the difference between telesales, telemarketing, call center, and sales?\n\n5. Personal Questions:\n- If you had a million dollars, what would you do with it?\n- Do you have any commitments in the next 6 months?\n- If you could travel to any country, which one would you choose and why?\n\n6. Emotional Intelligence & Communication Skills:\n- What's the difference between sympathy and empathy?\n- What's the difference between passion and compassion?\n- How would you define the boss, the leader, and the manager?\n\n7. Customer Service Philosophy:\n- Do you think the customer is always right?\n- How do you convince someone to buy something?\n\n8. Additional Insight:\n- Why did you specifically choose to work with us for customer service?\n\n9. Who is your role model?\n- If you had the chance to sit with your role model, what would you talk about?\n- What is something you would love to say to them?\n\n10. Quick Thought Segment – Discuss any topic of your choice for one minute.\n- This could be anything you're passionate about, a recent news topic, or something that interests you.\n- Describe happiness?\n- Does money make people happy?\n- What would you do if you met an angry customer who asked for your manager?\n\n🚨 Note on Additional Candidate Questions:\n- When a candidate introduces themselves in English and mentions they worked in a company for a short period, ask: \"Why did you leave your last company?\"\n- If the candidate doesn't have prior customer service experience, ask about the industry they worked in (e.g., import/export) to gauge their communication skills.\n- If a candidate mentions they've previously worked in a call center and left but are now looking to return, ask: \"Why do you want to return to the same field?\"",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "On-Site Interview\nSunday to Thursday\n1:00 PM - 5:00 PM",
+   "active": true
+  },
+  {
+   "id": "alorica-english",
+   "language": "English",
+   "company": "Alorica",
+   "location": "Sheikh Zayed",
+   "offerText": "📢 Job Opening: Alorica English US Airline account at ALORICA\n\n📍 Sheikh Zayed\n📂 Customer Service\n💰 Up to EGP 21,000 / Monthly\n👤 Gender: Both\n💂 Military: Not Applicable\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 40\n🎓 Education: Graduate, Dropped Out\n📋 Experience: CS experience\n🗣️ Languages: English (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: rotational\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 Job Opening: Alorica English US Airline account at ALORICA\n\n📍 Sheikh Zayed\n📂 Customer Service\n💰 Up to EGP 21,000 / Monthly\n👤 Gender: Both\n💂 Military: Not Applicable\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 40\n🎓 Education: Graduate, Dropped Out\n📋 Experience: CS experience\n🗣️ Languages: English (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: rotational\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Introduction Questions:\n- Introduce yourself.\n- Can you tell us about your previous experiences?\n- Why did you leave your last job\n- Why are you interested in the customer service representative field?\n\n2. Experience and Situational Questions:\n- Can you describe a good or bad situation you faced at work or outside of work?\n- What achievement are you most proud of in your career so far?\n- If you've worked in a call center before and left, why do you want to return to the same field?\n- If you have no prior experience in customer service, can you tell us about your previous industry and your experience there?\n\n3. Job-Related Questions:\n- What do you know about call centers and customer service?\n- Do you think customer service is important? Why?\n- Why do you want to work as a call center agent?\n- How would you describe the role of a call center representative?\n- What are the most important skills for a call center representative?\n- What steps do you take when speaking with a customer?\n- How do you handle calls from dissatisfied customers?\n- If a customer asked you to do something against company policy, how would you respond?\n- If you faced an angry customer who said, \"Your colleagues didn't help me, and I don't want to waste my time again. I want to speak to your supervisor,\" how would you handle that situation?\n\n4. Behavioral Questions:\n- Tell me about a weakness and strength you have and how you manage them.\n- In your opinion, what qualities are necessary to succeed in this role?\n- How do you handle clients?\n- What is the difference between telesales, telemarketing, call center, and sales?\n\n5. Personal Questions:\n- If you had a million dollars, what would you do with it?\n- Do you have any commitments in the next 6 months?\n- If you could travel to any country, which one would you choose and why?\n\n6. Emotional Intelligence & Communication Skills:\n- What's the difference between sympathy and empathy?\n- What's the difference between passion and compassion?\n- How would you define the boss, the leader, and the manager?\n\n7. Customer Service Philosophy:\n- Do you think the customer is always right?\n- How do you convince someone to buy something?\n\n8. Additional Insight:\n- Why did you specifically choose to work with us for customer service?\n\n9. Who is your role model?\n- If you had the chance to sit with your role model, what would you talk about?\n- What is something you would love to say to them?\n\n10. Quick Thought Segment – Discuss any topic of your choice for one minute.\n- This could be anything you're passionate about, a recent news topic, or something that interests you.\n- Describe happiness?\n- Does money make people happy?\n- What would you do if you met an angry customer who asked for your manager?\n\n🚨 Note on Additional Candidate Questions:\n- When a candidate introduces themselves in English and mentions they worked in a company for a short period, ask: \"Why did you leave your last company?\"\n- If the candidate doesn't have prior customer service experience, ask about the industry they worked in (e.g., import/export) to gauge their communication skills.\n- If a candidate mentions they've previously worked in a call center and left but are now looking to return, ask: \"Why do you want to return to the same field?\"",
+   "candidateAutoReply": "Hi! Your interview will be conducted online. Someone from our team will contact you within 3 days with the next steps. Please keep your phone available and check your messages.",
+   "interviewDays": "Online Interview\nMonday to Friday",
+   "active": true
+  },
+  {
+   "id": "dial-expert-english",
+   "language": "English",
+   "company": "Dial Expert",
+   "location": "Katameya",
+   "offerText": "📢 Hiring: US Financial Advisor (Closer)\n\n📍 Location: One Katameya, Cairo (Hybrid for Cairo Residents / Remote Outside Cairo)\n💰 Salary: 18,000 EGP Net + Attractive Commission ($20 per deal)\n\n✅ Requirements:\n• Fluent English (B2+/C1)\n• Sales / Call Center experience is preferred\n• Strong communication & negotiation skills\n• Comfortable working night shifts\n• Egyptians only\n• Graduates & undergraduates are welcome\n\n🕒 Working Hours:\n• Monday to Friday\n• 9-hour shift (Start time: 4 PM / 7 PM / 8 PM)\n\n🎁 Benefits:\n• Monthly commissions & performance bonuses\n• Paid training\n• Annual paid leave\n• Clear career growth\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 Hiring: US Financial Advisor (Closer)\n\n📍 Location: One Katameya, Cairo (Hybrid for Cairo Residents / Remote Outside Cairo)\n💰 Salary: 18,000 EGP Net + Attractive Commission ($20 per deal)\n\n✅ Requirements:\n• Fluent English (B2+/C1)\n• Sales / Call Center experience is preferred\n• Strong communication & negotiation skills\n• Comfortable working night shifts\n• Egyptians only\n• Graduates & undergraduates are welcome\n\n🕒 Working Hours:\n• Monday to Friday\n• 9-hour shift (Start time: 4 PM / 7 PM / 8 PM)\n\n🎁 Benefits:\n• Monthly commissions & performance bonuses\n• Paid training\n• Annual paid leave\n• Clear career growth\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why are you interested in telesales?\n3. How do you handle rejection and objections?\n4. Sell me this pen.\n5. How would you persuade a customer who says the product is too expensive?\n6. How do you stay motivated when you do not meet a target?\n7. What makes you a good salesperson?\n8. Describe a time you convinced someone.\n9. Why should we hire you?",
+   "candidateAutoReply": "You can apply here:\n📌 Form: https://apply.dialexpert.com/apply?ref=redz\n\n⚡ Important:\n\n• In *\"How did you hear about us?\"* → choose *Redz*\n• In the *Account/Position* section → select *🇺🇸 US Financial Advisor closer – Dial Expert*\n\n✅ Apply as soon as possible.\n\n❗ After submitting your application, send me your *full name* and *phone number* so I can check your application status and feedback.",
+   "interviewDays": "IF accepted, company will send time of interview",
+   "active": true
+  },
+  {
+   "id": "global-results-english",
+   "language": "English",
+   "company": "Global Results",
+   "location": "Sheraton · Heliopolis",
+   "offerText": "📢 Global Results is Hiring – English Telesales Agents\n\n🏢 American outsourcing company\n📍 Location: Sheraton, Heliopolis\n💰 Salary: Starting from EGP 12,000 + KPI bonuses that can exceed EGP 10,000\n\n✅ Requirements:\n• Fluent English\n• Telesales experience is preferred\n• Undergraduates are welcome\n• Must be a Cairo resident (mandatory)\n\n🕒 Working Hours: 3:30 PM – 11:30 PM\n📅 Days Off: Saturday & Sunday\n\n📚 Interview Material: Same as the Sales Material\n📩 Confirmation: A recruiter will contact you to coordinate the interview schedule and share the details.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 Global Results is Hiring – English Telesales Agents\n\n🏢 American outsourcing company\n📍 Location: Sheraton, Heliopolis\n💰 Salary: Starting from EGP 12,000 + KPI bonuses that can exceed EGP 10,000\n\n✅ Requirements:\n• Fluent English\n• Telesales experience is preferred\n• Undergraduates are welcome\n• Must be a Cairo resident (mandatory)\n\n🕒 Working Hours: 3:30 PM – 11:30 PM\n📅 Days Off: Saturday & Sunday\n\n📚 Interview Material: Same as the Sales Material\n📩 Confirmation: A recruiter will contact you to coordinate the interview schedule and share the details.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why are you interested in telesales?\n3. How do you handle rejection and objections?\n4. Sell me this pen.\n5. How would you persuade a customer who says the product is too expensive?\n6. How do you stay motivated when you do not meet a target?\n7. What makes you a good salesperson?\n8. Describe a time you convinced someone.\n9. Why should we hire you?",
+   "candidateAutoReply": "Hi! Thanks for applying. I'll double-check your details first. If everything looks good, I'll contact you to arrange your interview and share all the details. Please keep your phone available and check your messages.",
+   "interviewDays": null,
+   "active": true
+  },
+  {
+   "id": "lpm-english",
+   "language": "English",
+   "company": "LPM",
+   "location": "6th of October",
+   "offerText": "Company Name: LPM \nLocation: 6th of october\nPosition: sales agent\nSalary: EGP 20,000 net per month\nCommission Structure: Starting from EGP 6,000, with uncapped commisions\nAdditional Incentives: Semi-daily spiffs and weekly performance bonuses.\n\nWorking hours: 3:15 pm - 12:30 am  (Fixed hours).\nWeekends: Saturday & Sunday - (Fixed weekends).\nPublic Holidays: US federal holidays & Eids only.\nTransportation: On the way back home only. Drop off points for guys & door to door for girls\"\".\nDrop off Points: October - Zayed - El Haram - El Mohandseen.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "Company Name: LPM \nLocation: 6th of october\nPosition: sales agent\nSalary: EGP 20,000 net per month\nCommission Structure: Starting from EGP 6,000, with uncapped commisions\nAdditional Incentives: Semi-daily spiffs and weekly performance bonuses.\n\nWorking hours: 3:15 pm - 12:30 am  (Fixed hours).\nWeekends: Saturday & Sunday - (Fixed weekends).\nPublic Holidays: US federal holidays & Eids only.\nTransportation: On the way back home only. Drop off points for guys & door to door for girls\"\".\nDrop off Points: October - Zayed - El Haram - El Mohandseen.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why do you want to work in customer support?\n3. How would you handle an upset customer?\n4. How do you prioritize multiple customer requests?\n5. What makes good customer service?\n6. How would you respond to a customer by email?\n7. What would you do if you did not know the answer to a customer's question?\n8. Describe a time you solved a problem.\n9. What are your strengths and weaknesses?\n10. Why should we hire you?",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Monday, Tuesday, and Wednesday, from 7:00 PM to 9:00 PM",
+   "active": true
+  },
+  {
+   "id": "lts-english",
+   "language": "English",
+   "company": "LTS",
+   "location": "Nozha",
+   "offerText": "📢 LTS is Hiring – Hotel surveys (Outbound)\n\n✨ What We Offer.\n💰 Attractive salary package: 12,000 EGP base + 2,000 KPIs\nAfter probation period (3months) you will get 12k bouns\nAnd Salary will be 15k\n\n📈 Commission scheme: up to 30 EGP per transfer.\n🩺 Medical insurance after 3 months.\n🌟 Career growth opportunities & professional training.\nTransportation is provided for females only after midnight\n📌 Job Responsibilities:\n.Make outbound calls to recent hotel guests and conduct short surveys.\n\n.Transfer calls to the USA call center after surveys.\n\n.Achieve 11 successful transfers per day (250/month).\n\n.Follow company policies and ensure professional communication.\n\n🛠️ Requirements:\n.Fluent in English B2+ English level\n\n.Excellent phone etiquette & communication skills.\n\n.Ability to stay calm in high-pressure situations.\n\n.Minimum high school diploma (college graduate preferred).\n\n.Customer service experience is a plus.\n\n.Age:18 to 35y\n\n🕒 Working Hours:\nShifts available between 3:00 pm – 2:00 am.\n\n📍 Location:ElNozha, Cairo\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 LTS is Hiring – Hotel surveys (Outbound)\n\n✨ What We Offer.\n💰 Attractive salary package: 12,000 EGP base + 2,000 KPIs\nAfter probation period (3months) you will get 12k bouns\nAnd Salary will be 15k\n\n📈 Commission scheme: up to 30 EGP per transfer.\n🩺 Medical insurance after 3 months.\n🌟 Career growth opportunities & professional training.\nTransportation is provided for females only after midnight\n📌 Job Responsibilities:\n.Make outbound calls to recent hotel guests and conduct short surveys.\n\n.Transfer calls to the USA call center after surveys.\n\n.Achieve 11 successful transfers per day (250/month).\n\n.Follow company policies and ensure professional communication.\n\n🛠️ Requirements:\n.Fluent in English B2+ English level\n\n.Excellent phone etiquette & communication skills.\n\n.Ability to stay calm in high-pressure situations.\n\n.Minimum high school diploma (college graduate preferred).\n\n.Customer service experience is a plus.\n\n.Age:18 to 35y\n\n🕒 Working Hours:\nShifts available between 3:00 pm – 2:00 am.\n\n📍 Location:ElNozha, Cairo\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why are you interested in telesales?\n3. How do you handle rejection and objections?\n4. Sell me this pen.\n5. How would you persuade a customer who says the product is too expensive?\n6. How do you stay motivated when you do not meet a target?\n7. What makes you a good salesperson?\n8. Describe a time you convinced someone.\n9. Why should we hire you?",
+   "candidateAutoReply": "Hi! Thanks for applying. we'll double-check your details first. If everything looks good, some one of our team will contact you to arrange your interview and share all the details. Please keep your phone available and check your messages.",
+   "interviewDays": null,
+   "active": true
+  },
+  {
+   "id": "creative-basket-english",
+   "language": "English",
+   "company": "Creative Basket",
+   "location": "Madinaty",
+   "offerText": "Company Name : Creative Basket\n🕚 Working Hours: 3:00 PM – 12:00 AM\n🗣️ English Level: B2+ - C1\n💼 Sales Experience: Required min 3 months.\n💰 Salary: 13 to 16 Basic  + Commissions\n*Title : Travel Advisor \n*Account: Reservations \n*Work location : Madinaty\n*Notes : \n-must live in New cairo ( Madinaty - Rehab), Sherouk Areas.\n-training starting date: 16/11 for 5 days max. \n-grads only preferable.\n-foreigners are welcome to apply.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "Company Name : Creative Basket\n🕚 Working Hours: 3:00 PM – 12:00 AM\n🗣️ English Level: B2+ - C1\n💼 Sales Experience: Required min 3 months.\n💰 Salary: 13 to 16 Basic  + Commissions\n*Title : Travel Advisor \n*Account: Reservations \n*Work location : Madinaty\n*Notes : \n-must live in New cairo ( Madinaty - Rehab), Sherouk Areas.\n-training starting date: 16/11 for 5 days max. \n-grads only preferable.\n-foreigners are welcome to apply.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why are you interested in telesales?\n3. How do you handle rejection and objections?\n4. Sell me this pen.\n5. How would you persuade a customer who says the product is too expensive?\n6. How do you stay motivated when you do not meet a target?\n7. What makes you a good salesperson?\n8. Describe a time you convinced someone.\n9. Why should we hire you?",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "The interviews will be held at the Nasr City branch on Tuesday and Wednesday, from 2:00 to 5:00 PM.",
+   "active": true,
+   "note": "Auto-reply was empty in the sheet; standard text used (editable)."
+  },
+  {
+   "id": "total-trip-english",
+   "language": "English",
+   "company": "Total trip",
+   "location": "Heliopolis · Nasr City",
+   "offerText": "📢 TTP is Hiring – English Sales Agents\n\n💰 Salary: EGP 20,000 NET + Uncapped Commission + Semi-Daily Spiffs\n\n✅ Requirements:\n• Fluent English\n• Undergraduates and graduates are welcome\n• Egyptians only\n• Maximum age: 30\n• Must be a Cairo resident (mandatory)\n\n🕒 Fixed American Shift: 3:00 PM – 12:00 AM\n📅 Fixed Days Off: Saturday & Sunday\n\n🚌 Transportation:\n• Transportation back home to Heliopolis and Nasr City only\n• Female candidates: Door-to-door\n• Male candidates: Meeting point\n\n📅 Interview Days: Wednesday, Thursday, and Friday\n📚 Interview Material: Same as the Sales Material\n📩 Confirmation: Someone from the recruitment team will contact you one day before the interview to confirm the time and send the location.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 TTP is Hiring – English Sales Agents\n\n💰 Salary: EGP 20,000 NET + Uncapped Commission + Semi-Daily Spiffs\n\n✅ Requirements:\n• Fluent English\n• Undergraduates and graduates are welcome\n• Egyptians only\n• Maximum age: 30\n• Must be a Cairo resident (mandatory)\n\n🕒 Fixed American Shift: 3:00 PM – 12:00 AM\n📅 Fixed Days Off: Saturday & Sunday\n\n🚌 Transportation:\n• Transportation back home to Heliopolis and Nasr City only\n• Female candidates: Door-to-door\n• Male candidates: Meeting point\n\n📅 Interview Days: Wednesday, Thursday, and Friday\n📚 Interview Material: Same as the Sales Material\n📩 Confirmation: Someone from the recruitment team will contact you one day before the interview to confirm the time and send the location.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "1. Tell me about yourself.\n2. Why are you interested in sales?\n3. How would you convince a customer to buy a product they do not need?\n4. How do you handle rejection?\n5. Sell me this pen.\n6. How would you handle an angry or hesitant customer?\n7. What motivates you to achieve sales targets?\n8. Describe a time you persuaded someone.\n9. What are your strengths and weaknesses?\n10. Why should we hire you for this sales role?",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Wednesday, Thursday, and Friday",
+   "active": true
+  },
+  {
+   "id": "ttec-french",
+   "language": "French",
+   "company": "TTEC",
+   "location": "Maadi",
+   "offerText": "🔥 URGENT HIRING 🔥\n\n📢 Job Opening: TTEC French Account Sales Exp 🇨🇵 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 33,500 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 33,500 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), French (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhat You’ll Get at TTEC:\nCareer growth & professional development opportunities\nInclusive & supportive work culture\nGlobal exposure with a diverse team\nAdditional benefits including PTO, tuition reimbursement, and wellness incentives\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "🔥 URGENT HIRING 🔥\n\n📢 Job Opening: TTEC French Account Sales Exp 🇨🇵 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 33,500 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 33,500 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), French (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhat You’ll Get at TTEC:\nCareer growth & professional development opportunities\nInclusive & supportive work culture\nGlobal exposure with a diverse team\nAdditional benefits including PTO, tuition reimbursement, and wellness incentives\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "🟣 Part A: Online Interview – French (video call on Microsoft Teams)\n- The link will be sent 30 minutes before the interview.\n- Interview duration: 15–30 minutes.\n\n📌 Online interview questions (French):\n1. Introduce yourself (education / experience if any).\n2. What do you know about customer service?\n3. How do you handle an angry customer on the phone?\n4. Why do you want to join us?\n\n🔵 Part B: Phone Interview – English\n📌 Interview questions (English):\n1. Introduce yourself & talk about your previous work experiences.\n2. What do you know about customer service & why do you want to join us?\n3. What would you do if you faced an angry customer over the phone?\n\n🟢 Part C: Computer Assessments – French (SHL / Varient)\n1. Reading test (13 sentences) – read aloud\n2. Listening test (10 sentences) – listen and repeat\n3. Typing test – typingtest.com\n4. Personality questions – SHL example questions (French)\n5. Listening comprehension – 5 questions\n6. Vocabulary questions – synonyms/antonyms, 5 questions – languagelevel.com\n7. Grammar questions – find the bold error, 5 questions – languagelevel.com\n8. Free discussion – prepare a topic for 30 sec, speak for 45 sec\n9. IQ test – practiceaptitudetests.com\n\n🔴 Part D: Computer Assessments – English (SHL / Varient)\n1. Reading test (13 sentences) – britishcouncil.org/englishscore\n2. Listening test (10 sentences) – britishcouncil.org/englishscore\n3. Typing test – typingtest.com\n4. Personality questions – SHL example questions (English)\n5. Listening comprehension – 5 sentences\n6. Vocabulary questions – 5 questions – languagelevel.com / englishscore\n7. Grammar questions – 5 questions – languagelevel.com / englishscore\n8. Free discussion – prepare and speak on a given topic\n9. IQ test – practiceaptitudetests.com",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Monday to Friday\n11:00 AM - 4:00 PM\nMaadi Technology Park",
+   "active": true
+  },
+  {
+   "id": "ttec-spanish",
+   "language": "Spanish",
+   "company": "TTEC",
+   "location": "Maadi",
+   "offerText": "📢 Job Opening: TTEC Spanish Account Sales Exp 🇪🇸 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 28,500 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 28,500 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), Spanish (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhy Join Us?\n✨ Competitive salary package.\n📈 Career growth opportunities.\n🤝 Professional and supportive work environment.\n🎓 Continuous learning and development.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 Job Opening: TTEC Spanish Account Sales Exp 🇪🇸 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 28,500 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 28,500 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), Spanish (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhy Join Us?\n✨ Competitive salary package.\n📈 Career growth opportunities.\n🤝 Professional and supportive work environment.\n🎓 Continuous learning and development.\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "# Material de entrevista – Ventas por teléfono (Español)\n\n## 1. Presentación personal\n\n**Pregunta:** Háblame de ti.\n\n**Respuesta:**\n\nHola, buenos días. Me llamo [Nombre], tengo [Edad] años y soy de Egipto. Soy una persona motivada, comunicativa y con muchas ganas de aprender. Me gusta hablar con la gente, entender sus necesidades y encontrar soluciones adecuadas. Estoy interesado en trabajar en ventas porque quiero desarrollar mis habilidades de comunicación y negociación, alcanzar objetivos y crecer profesionalmente.\n\n## 2. Preguntas frecuentes de la entrevista\n\n**Pregunta 1: ¿Por qué quieres trabajar en ventas?**\n\nMe interesa trabajar en ventas porque me gusta comunicarme con las personas, conocer sus necesidades y ayudarlas a encontrar el producto adecuado. También me motiva trabajar con objetivos y ganar comisiones según mi rendimiento.\n\n**Pregunta 2: ¿Tienes experiencia en ventas?**\n\nSi tienes experiencia:\n\nSí, tengo experiencia en ventas y atención al cliente. He aprendido a comunicarme con diferentes tipos de clientes, entender sus necesidades y manejar objeciones para conseguir buenos resultados.\n\nSi no tienes experiencia:\n\nTodavía no tengo experiencia directa en ventas, pero tengo buenas habilidades de comunicación, aprendo rápido y estoy dispuesto a recibir formación para alcanzar los objetivos de la empresa.\n\n**Pregunta 3: ¿Cuáles son tus puntos fuertes?**\n\nSoy una persona paciente, responsable, persuasiva y organizada. Sé escuchar a los demás, mantener una actitud positiva y trabajar bajo presión.\n\n**Pregunta 4: ¿Cuál es tu mayor debilidad?**\n\nA veces me concentro demasiado en los detalles, pero estoy aprendiendo a organizar mejor mi tiempo y a priorizar las tareas más importantes.\n\n**Pregunta 5: ¿Cómo manejas el rechazo de un cliente?**\n\nMantengo la calma, escucho al cliente e intento entender sus razones. No me tomo el rechazo de manera personal. Analizo la situación y busco una mejor forma de presentar la oferta.\n\n**Pregunta 6: ¿Cómo convencerías a un cliente para comprar un producto?**\n\nPrimero, haría preguntas para conocer sus necesidades. Después, explicaría los beneficios del producto y cómo puede ayudarle. Finalmente, respondería a sus dudas y le propondría dar el siguiente paso.\n\n**Pregunta 7: ¿Puedes",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Monday to Friday\n11:00 AM - 4:00 PM\nMaadi Technology Park",
+   "active": true
+  },
+  {
+   "id": "ttec-dutch",
+   "language": "Dutch",
+   "company": "TTEC",
+   "location": "Maadi",
+   "offerText": "🌟📢 Job Opening: TTEC Dutch Account Sales Exp 🇳🇱 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 64,000 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 64,000 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), Dutch (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhat You’ll Get at TTEC:\nCareer growth & professional development opportunities\nInclusive & supportive work culture\nGlobal exposure with a diverse team\nAdditional benefits including PTO, tuition reimbursement, and wellness incentives\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "🌟📢 Job Opening: TTEC Dutch Account Sales Exp 🇳🇱 at TTEC\n\n📍 maadi\n📂 Sales\n💰 Up to EGP 64,000 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 💼 Minimum 1 year of Sales experience\n💬 Strong communication skills\n💻 Computer literacy & ability to handle systems efficiently\n\nJob Responsibilities:\n• Handle customer inquiries professionally.\n• Provide accurate information and effective solutions.\n• Ensure a high level of customer satisfaction.\n• Maintain excellent communication with customers.\n• Deliver an outstanding customer experience.\n\nWork Conditions:\n🕘 Rotational Shifts (9 hours – 24/7)\n📅 2 Rotational Days Off\n\nSalary & Benefits:\n💰 Total Gross Salary: 64,000 EGP + Commission\n🏥 Medical Insurance\n👥 Social Insurance\n🚌 Transportation Provided (Collection Points)\n🚖 Door-to-door transportation for females from 10:00 PM to 6:00 AM\n🗣️ Languages: English (B2), Dutch (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off\n⏰ Hours: 8 hours and 1 hr break\n\nWhat You’ll Get at TTEC:\nCareer growth & professional development opportunities\nInclusive & supportive work culture\nGlobal exposure with a diverse team\nAdditional benefits including PTO, tuition reimbursement, and wellness incentives\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "Interviewmateriaal – Telefonische verkoop (Nederlands)\n(Draft prepared by AI based on the standard sales material: have a native speaker/trainer review it.)\n\n1. Zelfpresentatie / Self-introduction\nVraag: Vertel iets over jezelf. (Tell me about yourself.)\nAntwoord: Goedemorgen, mijn naam is [Naam], ik ben [Leeftijd] jaar oud en kom uit Egypte. Ik ben een gemotiveerd en communicatief persoon die graag leert. Ik praat graag met mensen, begrijp hun behoeften en zoek passende oplossingen. Ik wil in sales werken om mijn communicatie- en onderhandelingsvaardigheden te ontwikkelen en mijn doelen te bereiken.\n\n2. Veelgestelde vragen / Frequently asked questions\nVraag 1: Waarom wil je in sales werken? (Why do you want to work in sales?)\nIk werk graag met mensen. Ik wil hun behoeften begrijpen en ze helpen het juiste product te vinden. Targets en commissie motiveren mij ook.\n\nVraag 2: Heb je ervaring in sales? (Do you have sales experience?)\nMet ervaring: Ja, ik heb ervaring in sales en klantenservice. Ik heb geleerd om met verschillende soorten klanten te communiceren, hun behoeften te begrijpen en bezwaren te behandelen.\nZonder ervaring: Nog niet direct, maar ik heb goede communicatieve vaardigheden, leer snel en ben bereid een training te volgen om de doelen van het bedrijf te halen.\n\nVraag 3: Wat zijn je sterke punten? (What are your strengths?)\nIk ben geduldig, verantwoordelijk, overtuigend en georganiseerd. Ik kan goed luisteren, positief blijven en onder druk werken.\n\nVraag 4: Wat is je grootste zwakte? (What is your biggest weakness?)\nSoms besteed ik te veel aandacht aan details, maar ik leer mijn tijd beter te plannen en prioriteiten te stellen.\n\nVraag 5: Hoe ga je om met afwijzing van een klant? (How do you handle rejection?)\nIk blijf kalm, luister naar de klant en probeer zijn redenen te begrijpen. Ik neem een afwijzing niet persoonlijk. Ik analyseer de situatie en zoek een betere manier om het aanbod te presenteren.\n\nVraag 6: Hoe overtuig je een klant om iets te kopen? (How do you convince a customer to buy?)\nEerst stel ik vragen om de behoeften te kennen. Daarna leg ik de voordelen uit en hoe het product kan helpen. Tot slot beantwoord ik vragen en stel ik de volgende stap voor.\n\nVraag 7: Wat doe je bij een boze klant? (What do you do with an angry customer?)\nIk blijf kalm en beleefd, laat de klant uitpraten, bied mijn excuses aan voor het ongemak en zoek een oplossing. Als ik het zelf niet kan oplossen, schakel ik mijn teamleider in.\n\nVraag 8: Waarom zouden we jou moeten aannemen? (Why should we hire you?)\nIk ben gemotiveerd, betrouwbaar en leergierig. Ik spreek goed Nederlands en Engels en ik doe altijd mijn best om targets te halen.\n\nVraag 9: Verkoop mij deze pen. (Sell me this pen.)\nTip: stel eerst vragen (Hoe vaak schrijft u? Wat vindt u belangrijk in een pen?), koppel daarna de voordelen van de pen aan het antwoord en sluit af met een vraag: \"Zal ik er een voor u klaarleggen?\"\n",
+   "candidateAutoReply": null,
+   "interviewDays": null,
+   "active": true,
+   "materialNote": "AI-drafted; needs review by a Dutch speaker."
+  },
+  {
+   "id": "ttec-german",
+   "language": "German",
+   "company": "TTEC",
+   "location": "Maadi",
+   "offerText": "📢 *Job Opening: TTEC German Account Outbound Sales Exp 🇩🇪 at TTEC*\n\n📍 Maadi Technology Park, Cairo\n📂 Sales\n💰 Up to EGP 48,000 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 🗣️ Languages (B2–C1)\n📋 Experience: 2 Years of Sales Experience\n📅 Ready to start : 11th November 2026\n🗣️ Languages: English (B2+), German (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off \n⏰ Hours: 8 hours and 1 hr break\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}",
+   "copyText": "📢 *Job Opening: TTEC German Account Outbound Sales Exp 🇩🇪 at TTEC*\n\n📍 Maadi Technology Park, Cairo\n📂 Sales\n💰 Up to EGP 48,000 / Monthly\n👤 Gender: Both\n💂 Military: Completed\n🌍 Nationality: Egyptians Only\n🎂 Max Age: 45\n🎓 Education: Graduate\n📋 Experience: 🗣️ Languages (B2–C1)\n📋 Experience: 2 Years of Sales Experience\n📅 Ready to start : 11th November 2026\n🗣️ Languages: English (B2+), German (B2+)\n\n🎁 Benefits:\n✅ Medical Insurance\n✅ Social Insurance\n✅ Paid Training\n✅ transportation provided\n\n\n📅 Work Schedule:\n☀️ Rotational Shift\n🕐 Shifts: Morning, Night, Overnight\n📆 Working Days: 5 working days and 2 days off \n⏰ Hours: 8 hours and 1 hr break\n\n📲 Contact us via WhatsApp: {{MY_PHONE}}\n\n🔔 Follow us for more job offers:\n📘 Facebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\n💼 LinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "interviewMaterial": "Interviewmaterial – Telefonischer Vertrieb (Deutsch)\n(Draft prepared by AI based on the standard sales material: have a native speaker/trainer review it.)\n\n1. Selbstvorstellung / Self-introduction\nFrage: Erzählen Sie etwas über sich. (Tell me about yourself.)\nAntwort: Guten Morgen, mein Name ist [Name], ich bin [Alter] Jahre alt und komme aus Ägypten. Ich bin motiviert, kommunikativ und lerne gerne. Ich spreche gern mit Menschen, verstehe ihre Bedürfnisse und finde passende Lösungen. Ich möchte im Vertrieb arbeiten, um meine Kommunikations- und Verhandlungsfähigkeiten weiterzuentwickeln und meine Ziele zu erreichen.\n\n2. Häufige Fragen / Frequently asked questions\nFrage 1: Warum möchten Sie im Vertrieb arbeiten? (Why do you want to work in sales?)\nIch arbeite gern mit Menschen. Ich möchte ihre Bedürfnisse verstehen und ihnen helfen, das passende Produkt zu finden. Ziele und leistungsabhängige Provisionen motivieren mich außerdem.\n\nFrage 2: Haben Sie Erfahrung im Vertrieb? (Do you have sales experience?)\nMit Erfahrung: Ja, ich habe Erfahrung im Vertrieb und im Kundenservice. Ich habe gelernt, mit verschiedenen Kundentypen zu kommunizieren, ihre Bedürfnisse zu verstehen und Einwände zu behandeln.\nOhne Erfahrung: Noch keine direkte Erfahrung, aber ich habe gute Kommunikationsfähigkeiten, lerne schnell und bin bereit, eine Schulung zu absolvieren, um die Ziele des Unternehmens zu erreichen.\n\nFrage 3: Was sind Ihre Stärken? (What are your strengths?)\nIch bin geduldig, verantwortungsbewusst, überzeugend und organisiert. Ich kann gut zuhören, bleibe positiv und arbeite gut unter Druck.\n\nFrage 4: Was ist Ihre größte Schwäche? (What is your biggest weakness?)\nManchmal achte ich zu sehr auf Details, aber ich lerne, meine Zeit besser zu planen und Prioritäten zu setzen.\n\nFrage 5: Wie gehen Sie mit einer Ablehnung durch einen Kunden um? (How do you handle rejection?)\nIch bleibe ruhig, höre dem Kunden zu und versuche, seine Gründe zu verstehen. Eine Ablehnung nehme ich nicht persönlich. Ich analysiere die Situation und überlege, wie ich das Angebot besser präsentieren kann.\n\nFrage 6: Wie überzeugen Sie einen Kunden zum Kauf? (How do you convince a customer to buy?)\nZuerst stelle ich Fragen, um die Bedürfnisse zu verstehen. Dann erkläre ich die Vorteile und wie das Produkt helfen kann. Zum Schluss beantworte ich Fragen und schlage den nächsten Schritt vor.\n\nFrage 7: Was tun Sie bei einem verärgerten Kunden? (What do you do with an angry customer?)\nIch bleibe ruhig und höflich, lasse den Kunden ausreden, entschuldige mich für die Unannehmlichkeiten und suche eine Lösung. Wenn ich sie nicht selbst lösen kann, hole ich meinen Teamleiter dazu.\n\nFrage 8: Warum sollten wir Sie einstellen? (Why should we hire you?)\nIch bin motiviert, zuverlässig und lernbereit. Ich spreche gut Deutsch und Englisch und gebe immer mein Bestes, um Ziele zu erreichen.\n\nFrage 9: Verkaufen Sie mir diesen Stift. (Sell me this pen.)\nTipp: Stellen Sie zuerst Fragen (Wie oft schreiben Sie? Was ist Ihnen bei einem Stift wichtig?), verbinden Sie dann die Vorteile des Stifts mit der Antwort und schließen Sie mit einer Frage ab: \"Soll ich Ihnen einen zurücklegen?\"\n",
+   "candidateAutoReply": "Hi! Regarding your interview, someone from our team will send you the interview location and time one day before your scheduled interview. Please keep your phone available and check your messages.",
+   "interviewDays": "Monday to Friday\n11:00 AM - 4:00 PM\nMaadi Technology Park",
+   "active": true,
+   "materialNote": "AI-drafted; needs review by a German speaker."
+  }
+ ],
+ "commissionRules": [
+  {
+   "track": "CS English",
+   "companiesOrAccounts": [
+    "CNX",
+    "Alorica",
+    "TP",
+    "ttec"
+   ],
+   "termsDays": 30,
+   "externalAmount": 3000.0,
+   "recruiter": 1300.0,
+   "leader": 1700.0,
+   "unit": 2000.0,
+   "ceoShownInSheet": 1000.0,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1300.0,
+     "leader": 400.0,
+     "unit": 300.0,
+     "ceo": 1000.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 1700.0,
+     "unit": 300.0,
+     "ceo": 1000.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2000.0,
+     "ceo": 1000.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 3000.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   }
+  },
+  {
+   "track": "CS English",
+   "companiesOrAccounts": [
+    "sutherland",
+    "eclerx"
+   ],
+   "termsDays": 45,
+   "externalAmount": 3500.0,
+   "recruiter": 1300.0,
+   "leader": 1700.0,
+   "unit": 2000.0,
+   "ceoShownInSheet": 1500.0,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1300.0,
+     "leader": 400.0,
+     "unit": 300.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 1700.0,
+     "unit": 300.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2000.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 3500.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   }
+  },
+  {
+   "track": "CS English",
+   "companiesOrAccounts": [
+    "total trip",
+    "lpm",
+    "global",
+    "LTS",
+    "ABS",
+    "Creative Basket"
+   ],
+   "termsDays": 30,
+   "externalAmount": 2500.0,
+   "recruiter": 1000.0,
+   "leader": 1500.0,
+   "unit": 1800.0,
+   "ceoShownInSheet": 700,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1000.0,
+     "leader": 500.0,
+     "unit": 300.0,
+     "ceo": 700.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 1500.0,
+     "unit": 300.0,
+     "ceo": 700.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 1800.0,
+     "ceo": 700.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 2500.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   }
+  },
+  {
+   "track": "CS English",
+   "companiesOrAccounts": [
+    "Dial expert"
+   ],
+   "termsDays": 30,
+   "externalAmount": 2000.0,
+   "recruiter": 800.0,
+   "leader": 1200.0,
+   "unit": 1500.0,
+   "ceoShownInSheet": 500.0,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 800.0,
+     "leader": 400.0,
+     "unit": 300.0,
+     "ceo": 500.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 1200.0,
+     "unit": 300.0,
+     "ceo": 500.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 1500.0,
+     "ceo": 500.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 2000.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   },
+   "note": "External amount 2000 is now in the commission file (Final_Comission_Redz 4): unit 1500 + 500 for CEO."
+  },
+  {
+   "track": "CS Languages",
+   "companiesOrAccounts": [
+    "CNX other languages",
+    "Alorica langs",
+    "TP language"
+   ],
+   "termsDays": 30,
+   "externalAmount": 4000.0,
+   "recruiter": 1500.0,
+   "leader": 2000.0,
+   "unit": 2500.0,
+   "ceoShownInSheet": 1500,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1500.0,
+     "leader": 500.0,
+     "unit": 500.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 2000.0,
+     "unit": 500.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2500.0,
+     "ceo": 1500.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 4000.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   },
+   "note": "Applies to Teleperformance (all languages incl. French), confirmed by CEO."
+  },
+  {
+   "track": "CS Languages",
+   "companiesOrAccounts": [
+    "VXI Spanish ( Monolingual )",
+    "INtouchCX other languages"
+   ],
+   "termsDays": 30,
+   "externalAmount": 4500.0,
+   "recruiter": 1500.0,
+   "leader": 2000.0,
+   "unit": 2500.0,
+   "ceoShownInSheet": 2000,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1500.0,
+     "leader": 500.0,
+     "unit": 500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 2000.0,
+     "unit": 500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 4500.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   },
+   "note": "TP language removed from this row: TP is paid per the 4000 row (confirmed by CEO)."
+  },
+  {
+   "track": "CS Languages",
+   "companiesOrAccounts": [
+    "sutherland language",
+    "TTEC languages"
+   ],
+   "termsDays": 45,
+   "externalAmount": 4500.0,
+   "recruiter": 1500.0,
+   "leader": 2000.0,
+   "unit": 2500.0,
+   "ceoShownInSheet": 2000,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1500.0,
+     "leader": 500.0,
+     "unit": 500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 2000.0,
+     "unit": 500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2500.0,
+     "ceo": 2000.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 4500.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   }
+  },
+  {
+   "track": "CS Languages",
+   "companiesOrAccounts": [
+    "VXI Spanish",
+    "Alorica spanish ( Bilingual )"
+   ],
+   "termsDays": 30,
+   "externalAmount": 5500.0,
+   "recruiter": 1500.0,
+   "leader": 2000.0,
+   "unit": 2500.0,
+   "ceoShownInSheet": 3000,
+   "cascade": {
+    "ifSubmittedByRecruiter": {
+     "recruiter": 1500.0,
+     "leader": 500.0,
+     "unit": 500.0,
+     "ceo": 3000.0
+    },
+    "ifSubmittedByLeader": {
+     "leader": 2000.0,
+     "unit": 500.0,
+     "ceo": 3000.0
+    },
+    "ifSubmittedByUnitManager": {
+     "unit": 2500.0,
+     "ceo": 3000.0
+    },
+    "ifSubmittedByCEO": {
+     "ceo": 5500.0
+    },
+    "note": "If a level is missing in the chain (e.g. recruiter directly under CEO, or no unit), that level's slice goes to the CEO: CEO = external - sum of what is actually paid to the real chain."
+   }
+  }
+ ],
+ "confirmationTemplates": [
+  {
+   "company": "Teleperformance",
+   "variant": "English",
+   "text": "Hello [Candidate Name],\n\nThis is Ahmed from Mosla Pioneers. I hope you are doing well. I am writing to confirm your interview for the *Teleperformance English Customer Service account 🇬🇧 position at Teleperformance*\n\nscheduled on: *[Day]*\nfrom* 11 am to 3 pm*\n\nAs a quick reminder, the interview will be held at\n📍 Cairo - Plaza\n📍 https://g.co/kgs/yWVdUpX\n- Don't forget to tell them that you are recruited by MOSLA Pioneers and write on the application form\n\n*Reply with confirmed 👍 if you will attend on time or want me to reschedule*\n\nIf you need any further information from me beforehand, please do not hesitate to let me know.\n\nThank you once again for considering this opportunity.\n\nDon't forget to *Follow Us* on:\n\nFacebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\nLinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "Teleperformance",
+   "variant": "French",
+   "text": "Hello [Candidate Name],\n\nI hope you are doing well. I am writing to confirm your interview for the *Customer Service position at Teleperformance ( French Account )* \n\nscheduled on: *[Day]*\nat * 10am to 5pm*\n\nAs a quick reminder, the interview will be held at \n📍 📍Address \n‎*Tp french account*\n\n Teleperformance Egypt - Cairo - One Kattameya\n\n https://g.co/kgs/n9F4xZW\n\n- Don’t forget to tell them that you are recruited by MOSLA Pioneers“” and write on the application form\n\n*Reply with confirmed 👍 if you will attend on time or want me to reschedule*\n\nif you need any further information from me beforehand, please do not hesitate to let me know.\n\nThank you once again for considering this opportunity .\n\nDon’t forget to *Follow Us* on :\n\nFacebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\nLinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "TTEC",
+   "variant": "English",
+   "text": "Hello [Candidate Name],\n\nWe are confirming your dedicated interview slot in TTEC. We've reserved this time just for you!\n\n📅 Date: [Day] ⏰ Time: Between 11:00 AM – 3:00 PM (Sharp)\n👔 Dress Code: Smart-Casual\n\n📍 Address:\nTTEC Office\n🔗 Location: Click here \nhttps://maps.app.goo.gl/HBHLJSy4XxejTmXA8?g_st=iw\n\n⚠️ Please make sure to bring your National ID with you.\n\n✅ Reply with \"Confirmed\" if you’re attending the interview at the stated time above.\n\n✨ Don’t forget to tell them that you are recruited by MOSLA Pioneers and make sure to write it on the application form.\n\nPlz make sure to attend on time cuz they appreciate commitments and punctuality.\nWish you the best of luck! 🍀. Follow Us on :\n\nFacebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\nLinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "eClerx",
+   "variant": "English",
+   "text": "Hello [Candidate Name],\n\nWe are confirming your dedicated interview slot in Eclerx tomorrow. We've reserved this time just for you!\n\n📅 Date: [Day] ⏰ Time: Between 1:00 PM – 5:00 PM (Sharp)\n👔 Dress Code: Smart-Casual\n\n📍 Address:\nEclerx Office\n🔗 Location: Click here \nhttps://share.google/OQ5mIFnPA3ucWGBvL\n\n⚠️ Please make sure to bring your National ID with you.\n\n✅ Reply with \"Confirmed\" if you’re attending the interview at the stated time above.\n\n✨ Don’t forget to tell them that you are recruited by MOSLA Pioneers and make sure to write it on the application form.\n\nPlz make sure to attend on time cuz they appreciate commitments and punctuality.\nFollow Us on :\n\nFacebook: https://www.facebook.com/share/1UXfCR6QMC/?mibextid=wwXIfr\nLinkedIn: https://www.linkedin.com/company/redz-recruitment1/",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "Total Trip",
+   "variant": "English",
+   "text": "Interview Confirmation\nTotal Trip\n\nHello,\n\nWe are pleased to confirm your interview as follows:\n\n📅 Day: [Day] ⏰ Time: 2:00 PM – 3:00 PM\n\n📍 Location:\nشقه ٢ عماره ٦ مريع ١١٨٣ مساكن شيراتون\nUnit 2, Building 6, Square 1183, Masaken Sheraton – Heliopolis, Cairo, Egypt\n\n📍 Google Maps:\nhttps://maps.google.com/?q=30.094416,31.376213\n\nUpon arrival:\n\nPlease mention that you are coming from Career Core\n\n⚠️ Important Instructions:\n\nArabic:\nالمدخل مدخل خاص من جانب المبنى في الدور الأرضي، وليس المدخل الرئيسي، وليس \"ترافكو\".\nلا تستخدم الانتركم أو تدخل من المدخل الرئيسي للمبنى.\nاستخدام مدخل خاطئ أو استخدام جهاز الانتركم أو دخول \"ترافكو\" سيؤدي إلى رفض طلب المرشح تلقائيًا.\n\nEnglish:\nThe entrance is a private entrance from the SIDE of the building on the ground floor and NOT the main entrance and NOT “Travco”.\nDo NOT ring the intercom or enter the main building entrance.\nUsing the wrong entrance or using the intercom or entering “Travco” will result in automatic rejection of the candidate’s application.\n\nBest regards,\nHR Recruiter",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "LPM",
+   "variant": "English",
+   "text": "Hello [Candidate Name],\n\nWe are pleased to confirm your interview scheduled, 📅 Day: [Day] between 7:30 to 9:30 pm, at the following location:\n\nEl Motamyz District, Seyahya 6, Sameh Gado St.\nBuilding 112, 3rd floor, Apt 7\nhttps://maps.app.goo.gl/yA2Rra6EbGLGqBMu8?g_st=iw\n\n🔔 Upon arrival:\n        •        Clearly state that you are coming from Career Core.\n\nWe look forward to seeing you and wish you the best of luck in your interview.\n\nBest regards,\nHR Recruiter",
+   "usesPlaceholders": true
+  },
+  {
+   "company": "Creative Basket",
+   "variant": "English",
+   "text": "Hello [Candidate Name],\n\nWe are pleased to confirm your interview scheduled, 📅 Day:  Tuesday, Wednesday  between 2pm to 5pm, at the following location:\n٢ حافظ رمضان -عمارات الدلتا- اول مكرم عبيد \nM floor\nhttps://maps.app.goo.gl/GGe1whuWRfwEtSJ59\n\n\n\n🔔 Upon arrival:\n        •        Clearly state that you are coming from Career Core.\n\nWe look forward to seeing you and wish you the best of luck in your interview.\n\nBest regards,\nHR Recruiter",
+   "usesPlaceholders": true
+  }
+ ],
+ "processes": [
+  {
+   "company": "TTEC",
+   "processSteps": [
+    "add the candidate  info in sheet & Schedule site interview from urside ."
+   ],
+   "extraNotes": [
+    "*Interviews*\nMonday to Friday 11 am to 4pm\n\nMaadi Technology Park\n\n🔗 Location: Click here \nhttps://maps.app.goo.gl/HBHLJSy4XxejTmXA8?g_st=iw",
+    "offer status:ACTIVE \nEnglish Cs Exp 🇬🇧\nFrench Sales Exp 🇨🇵\nSpanish Sales Exp 🇪🇸\nDutch Sales Exp 🇳🇱 \nPortuguese Sales Exp 🇵🇹",
+    "- Site interview ✅\n- Egyptians only✅\n- Graduates only ✅\n- with military certificate for males ✅\n- max age 45 ✅"
+   ]
+  },
+  {
+   "company": "eClerx",
+   "processSteps": [
+    "add the candidate  info in sheet & Schedule site interview from urside ."
+   ],
+   "extraNotes": [
+    "Interview \n\n- Schedule onsite interview \nFrom Sunday to Thursday \n(From 1 pm to 5 pm )",
+    "- \"- Onsite interview ✅\n- Egyptians only ✅\n- Grads only ✅️\n- with military certificate for males ✅\n- Cs English B2 with BPO experience \n- max age 35 ✅\""
+   ]
+  },
+  {
+   "company": "Teleperformance English",
+   "processSteps": [
+    "Schedule Site interview",
+    "with only 3 Candidates max per-day ."
+   ],
+   "extraNotes": [
+    "1. On-Site Interview One Kattameya \nFrom Sunday to Thursday\n(From 11 am to 6 pm)\n:Note\nلوكيشن الانترفيو في القطاميه\nلكن الشغل بعد كده هو اللي هيكون في \nNasr City or 6 of October",
+    "- Egyptians only ✅\n- Grads only ✅\n- max age 45 ✅\n- Site interview \ncheck The confirmation message\n for Each offer plz ✅ \n- rotational shift ✅",
+    "🇬🇧Process English Account:\nadd the data in the panel & \nwill have double check from\nOurside the Account mangers\n\n🇨🇵Process French Accounts :\nSchedule Site interview \nwith only 5 Candidates"
+   ]
+  },
+  {
+   "company": "Teleperformance French",
+   "processSteps": [
+    "Schedule Site interview",
+    "with only 5 Candidates max per-day ."
+   ],
+   "extraNotes": [
+    "Related to french account\nInterview Location *Katamya* 10am to 5pm\nInterviews sunday till thursday"
+   ]
+  },
+  {
+   "company": "LTS",
+   "processSteps": [
+    "Double check = online interview first add only 5 Candidates max per-day . info in ur sheet",
+    "and our account managers will text through WhatsApp (don't Schedule site interview from urside ❌)"
+   ],
+   "extraNotes": [
+    "Process LTS :\nadd the data in the panel \n5 candidates per-day \n& \nwill have double check from\nOurside the Account mangers",
+    "- Grads & undergrads ✅\n - Egyptians only ✅\n - Max age 35 / min age 18 ✅\n- Outbound English B2+ ✅️ \n-Inbound English C1 wiz exp.✅\""
+   ]
+  },
+  {
+   "company": "Alorica",
+   "processSteps": [
+    "Double check = online interview first add el candidate info in ur sheet and our account managers will text through WhatsApp"
+   ],
+   "extraNotes": [
+    "\"Process:\n\n Add only 5 Candidates per day,Will do douple check \n once Qualified will schedule with the available slots\n- Online interview\n(From Monday to Friday)"
+   ]
+  }
+ ],
+ "_removedByCEO": [
+  "Amend Business Solutions",
+  "Atain",
+  "Evolve",
+  "Minister Fitness Pharma",
+  "TTC",
+  "Vintrin Clinic"
+ ],
+ "_commissionFileVersion": "Final_Comission_Redz (4).xlsx: column 'CEO' = amount the company pays Redz (external amount)"
+}

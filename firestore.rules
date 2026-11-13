@@ -1,0 +1,141 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function hasUserDoc() {
+      return isSignedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid));
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isCeo() {
+      return isSignedIn() && (
+        request.auth.token.email == 'ahmedsamii269@gmail.com' ||
+        (hasUserDoc() && getUserData().role == 'ceo')
+      );
+    }
+
+    function isAccountManager() {
+      return isSignedIn() && hasUserDoc() && getUserData().role == 'account_manager';
+    }
+
+    function isManagement() {
+      return isCeo() || isAccountManager();
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    match /users/{userId} {
+      allow read: if isSignedIn();
+      // Prevent arbitrary self-promotion to CEO on creation; allow CEO to provision any team member
+      allow create: if isCeo() || (
+        isSignedIn() &&
+        request.auth.uid == userId &&
+        (incoming().role != 'ceo' || request.auth.token.email == 'ahmedsamii269@gmail.com') &&
+        incoming().get('disabled', false) == false
+      );
+      // Block self-role-escalation, self-un-disabling, and hierarchy tampering
+      allow update: if isCeo() || (
+        isSignedIn() &&
+        request.auth.uid == userId &&
+        incoming().role == existing().role &&
+        incoming().get('disabled', false) == existing().get('disabled', false) &&
+        incoming().get('leaderId', null) == existing().get('leaderId', null) &&
+        incoming().get('unitManagerId', null) == existing().get('unitManagerId', null)
+      );
+      allow delete: if isCeo();
+    }
+
+    match /usernameDirectory/{usernameKey} {
+      // Allow exact single-document username->email resolution on sign-in without exposing user PII or listing
+      allow get: if true;
+      allow list: if false;
+      allow create, update: if isCeo() &&
+        incoming().keys().hasOnly(['username', 'email', 'updatedAt']) &&
+        incoming().username is string &&
+        incoming().email is string;
+      allow delete: if isCeo();
+    }
+
+    match /candidates/{candidateId} {
+      allow read: if isSignedIn();
+      // Allow management (CEO / AM, including God Mode) or owner creating their own candidate
+      allow create: if isSignedIn() && (incoming().createdBy == request.auth.uid || isManagement());
+      allow update: if isSignedIn() && (
+        isManagement() ||
+        (
+          existing().createdBy == request.auth.uid &&
+          incoming().createdBy == existing().createdBy &&
+          incoming().diff(existing()).affectedKeys().hasOnly([
+            'fullName', 'phone', 'phone2', 'email', 'graduateStatus',
+            'idNumber', 'area', 'vocarooUrl', 'vocarooUrl2', 'vocarooLanguage2', 'updatedAt'
+          ])
+        )
+      );
+      allow delete: if isManagement();
+    }
+
+    match /auditLogs/{logId} {
+      allow read: if isCeo();
+      allow create: if isSignedIn();
+      allow update, delete: if false;
+    }
+
+    match /offers/{offerId} {
+      allow read: if isSignedIn();
+      allow write: if isCeo();
+    }
+
+    match /processes/{processId} {
+      allow read: if isSignedIn();
+      allow write: if isCeo();
+    }
+
+    match /commissionRules/{ruleId} {
+      allow read: if isSignedIn();
+      allow write: if isCeo();
+    }
+
+    match /confirmationTemplates/{templateId} {
+      allow read: if isSignedIn();
+      allow write: if isCeo();
+    }
+
+    match /notifications/{notificationId} {
+      allow read: if isSignedIn();
+      allow create: if isCeo();
+      allow update: if isCeo() || (
+        isSignedIn() &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['readBy'])
+      );
+      allow delete: if isCeo();
+    }
+
+    match /settings/{settingId} {
+      allow read: if isSignedIn();
+      allow write: if isCeo();
+    }
+
+    match /presence/{userId} {
+      allow read: if isCeo() || (isSignedIn() && request.auth.uid == userId);
+      allow write: if isSignedIn() && request.auth.uid == userId;
+    }
+  }
+}
